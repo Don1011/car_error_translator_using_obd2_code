@@ -1,0 +1,223 @@
+[
+    {
+        "id": "1",
+        "code": "P0008",
+        "description": "Engine Position System Performance - Bank 1", 
+        "meaning": "Bank 1 camshaft and the crankshaft have a variation in mechanical timing. Basically the engine control module (ECM) is experiencing timing issues.",
+        "main_symptoms": ["Check Engine Light comes on", "Decreased power", "Rough acceleration", "Lower fuel economy"],
+        "possible_causes": ["Timing chain is experiencing tension", "Timing chain is stretched", "Crankshaft reluctor wheel is not referenced to TDC (top dead center)", "Wiring damage", "Worn out timing components", "Internal damage to ECM"],
+        "diagnostic_steps": ["Use an advanced diagnostic tool to pull engine codes", "Visually inspect the VCT/VVT circuit for open/damaged wires."]
+    },
+    {
+        "id": "2",
+        "code": "P0010",
+        "description": "Intake Camshaft Position Actuator Circuit / Open (Bank 1)", 
+        "meaning": "Bank 1 camshaft and the crankshaft have a variation in mechanical timing. The problem occurs when the engine experiences high RPM. The ECM doesn’t properly adjust valve lift at high RPM",
+        "main_symptoms": ["Check Engine Light comes on", "Engine performs poorly at high RPM", "Car runs roughly", "Lower fuel economy"],
+        "possible_causes": ["Sludge in engine oil", "TFaulty OVC (oil control valve)", "Internal damage to ECM", "Wiring damage", "ECM timing is out of sync", "Malfunction of crankshaft or camshaft sensor", "A short in VCT/VVT circuit, or the circuit is open"],
+        "diagnostic_steps": ["Use an advanced diagnostic tool to pull engine codes", "Inspect the VVT/VCT solenoid system for dirty oil", "Inspect the circuit for wiring problems"]
+    },
+    {
+        "id": "3",
+        "code": "P0011",
+        "description": "Intake Camshaft Position Timing - Over-Advanced (Bank 1)", 
+        "meaning": "The camshaft timing for bank 1 is above and beyond the limit set by the ECM. This causes an over-advanced condition that occurs either during retarding or advancing of the camshaft timing",
+        "main_symptoms": ["Check Engine Light comes on", "Hard starting", "Poor idle", "Lower fuel economy", "Car may run rough or stall", "Car may fail emission test"],
+        "possible_causes": ["Camshaft remains advanced despite ECM commanding it to retard", "Bank 1 oil control solenoid may be clogged or stuck", "Oil may be too thick and is thus blocking passages in bank 1", "Wiring problems in VCT/VVT", "Oil continuously flows to VCT piston chamber"],
+        "diagnostic_steps": ["Check that engine oil is clean and has the recommended viscosity", "Visually inspect wiring in the CVT system", "Pull engine codes and live data using advanced diagnostic tool"]
+    },
+    {
+        "id": "4",
+        "code": "P0012",
+        "description": "Intake Camshaft Position Timing - Over-Retarded (Bank 1)", 
+        "meaning": "Bank 1 is having an over-retarded timing condition that occurs either during retarding or advancing",
+        "main_symptoms": ["Check Engine Light comes on", "Hard starting", "Poor idle", "Lower fuel economy", "Car may run rough or stall", "Car may fail emission test"],
+        "possible_causes": ["Camshaft timing is incorrect", "Wiring problems in VCT/VVT", "Oil continuously flows to VCT piston chamber", "Timing valve solenoid control has failed and is stuck in open position", "Oil may be too thick and is thus blocking passages in bank 1"],
+        "diagnostic_steps": ["Check that engine oil is clean", "Visually inspect wiring in the CVT system", "Pull engine codes and live data using advanced diagnostic tool", "Using bidirectional scanner, command the timing valve solenoid control valve to open and close then see if camshaft timings change. If they change it means the valve is not the problem"]
+    },
+    {
+        "id": "5",
+        "code": "P0014",
+        "description": "Exhaust Camshaft Position Timing - Over-Advanced (Bank 1)", 
+        "meaning": "Bank 1 camshaft is having an over-advanced timing condition that occurs either during retarding or advancing",
+        "main_symptoms": ["Check Engine Light comes on", "Hard starting", "Lower fuel economy", "Car may run rough or stall", "Car may fail emission test"],
+        "possible_causes": ["Camshaft timing is incorrect", "Wiring problems in VCT/VVT", "Oil continuously flows to VCT piston chamber", "Timing valve solenoid control has failed and is stuck in open position", "Oil may be too thick and is thus blocking passages in bank 1"],
+        "diagnostic_steps": ["Check that engine oil is clean and full in the tank", "Visually inspect wiring in the CVT system", "Pull engine codes and live data using advanced diagnostic tool", "Using bidirectional scanner, command the timing valve solenoid control valve to open and close then see if camshaft timings change. If they change it means the valve is not the problem"]
+    },
+    {
+        "id": "6",
+        "code": "P0016",
+        "description": "Crankshaft Position Camshaft Position Correlation Bank 1 Sensor A", 
+        "meaning": "The crankshaft and camshaft signals are out of time. Meaning the ECM can detect that the timing of the crankshaft and that of the camshaft do not correlate",
+        "main_symptoms": ["Check Engine Light comes on", "Engine may crank but fail to start", "Engine may continue to run but will record poor performance", "Rattling sound in the harmonic balancer", "Poor fuel economy"],
+        "possible_causes": ["Timing chain is overstretched", "Tone ring on camshaft and/or crankshaft is has slipped or broken", "Timing chain has jumped teeth and put camshaft timing out of position", "Problems with camshaft phaser and putting the phaser out of position", "Wiring to crank/cam sensor is damaged"],
+        "diagnostic_steps": ["Inspect oil control valve (OCV) for connection or wiring problems", "Check that engine oil is clean, full and has correct viscosity", "Pull engine codes and live data using advanced diagnostic tool", "Using bidirectional scanner, command the OVC on and off then see if camshaft timings change. If they change it means the valve is not the problem"]
+    },
+    {
+        "id": "7",
+        "code": "P0021",
+        "description": "Intake Camshaft Position Timing - Over-Advanced (Bank 2)", 
+        "meaning": "The camshaft timing for bank 2 is above and beyond the limit set by the ECM. This causes an over-advanced condition that occurs either during retarding or advancing of the camshaft timing",
+        "main_symptoms": ["Check Engine Light comes on", "Hard starting", "Poor idle", "Car may run rough or stall", "Poor fuel economy", "Car may fail emission test"],
+        "possible_causes": ["Camshaft remains advanced despite ECM commanding it to retard", "Bank 2 oil control solenoid may be clogged or stuck", "Oil may be too thick and is thus blocking passages in bank 2", "Wiring problems in VCT/VVT", "Oil continuously flows to VCT piston chamber"],
+        "diagnostic_steps": ["Check that engine oil is clean and has the recommended viscosity", "Visually inspect wiring in the CVT system", "Pull engine codes and live data using advanced diagnostic tool"]
+    },
+    {
+        "id": "8",
+        "code": "P0022",
+        "description": "'A' camshaft position – timing over-retarded (Bank 2)", 
+        "meaning": "The camshaft timing for bank 2 is over-retarded",
+        "main_symptoms": ["Check Engine Light comes on", "Car stalls", "Car hard starts"],
+        "possible_causes": ["Camshaft remains retarded despite ECM commanding it to advance", "Wiring problems in VCT/VVT", "Oil continuously flows to VCT piston chamber", "Timing valve controlled solenoid has failed and remains open"],
+        "diagnostic_steps": ["Visually inspect wiring in the CVT system", "Pull engine codes and live data using advanced diagnostic tool", "Reset the codes. If P0022 returns use a bidirectional tool to check whether VCT solenoid is working"]
+    },
+    {
+        "id": "9",
+        "code": "P0030",
+        "description": "Heated Oxygen Sensor (H02S) Heater Control Circuit Bank 1 Sensor 1", 
+        "meaning": "Bank 1, sensor 1 of the O2 sensor heater circuit is faulty. As such, the engine isn’t achieving closed loop and therefore the car has increased emissions",
+        "main_symptoms": ["Check Engine Light comes on", "Longer time needed to achieve closed loop", "Decreased fuel economy", "Engine may go into fixed fuel mix"],
+        "possible_causes": ["H02S sensor in bank 1, circuit 1 is not sending the correct signal to ECM", "Damaged or failed element in heater circuit", "Open in O2 sensor heater’s circuit", "Open/short in O2 sensor heater’s battery", "Defective ECM (this is the least likely cause)"],
+        "diagnostic_steps": ["Inspect wiring and power to the O2 sensor and ensure there’s no damage/open/short", "Use code reader to pull engine codes", "Check voltage of O2 sensor and ensure it matches manufacturer’s specs", "Replace O2 sensor if necessary"]
+    },
+    {
+        "id": "10",
+        "code": "U0073",
+        "description": "Control Module Communication Bus “A” Off", 
+        "meaning": "Problem with CAN bus making it hard for modules to exchange information and to communicate with scan tool",
+        "main_symptoms": ["Check Engine Light comes on", "Instrument cluster indicator “light” on", "Reduced fuel economy", "Engine lacks power"],
+        "possible_causes": ["Open in the “A” CAN bus + or – circuit", "Short to power or ground in “A” CAN bus circuit"],
+        "diagnostic_steps": ["Pull all communication codes and address them first then this one last", "Visually inspect all bus communication connections (connectors and wires) for breaks, shorts, opens, chafing, burns and melted spots", "Reset all codes and do a test drive. If this code returns disconnect one control module at a time and see if the scanner can finally communicate with PCM"]
+    },
+    {
+        "id": "11",
+        "code": "U0101",
+        "description": "Control Module Communication Bus “A” Off", 
+        "meaning": "Problem with CAN bus making it hard for modules to exchange information and to communicate with scan tool",
+        "main_symptoms": ["Check Engine Light comes on", "Instrument cluster indicator “light” on", "Reduced fuel economy", "Engine lacks power"],
+        "possible_causes": ["Open in the “A” CAN bus + or – circuit", "Short to power or ground in “A” CAN bus circuit"],
+        "diagnostic_steps": ["Pull all communication codes and address them first then this one last", "Visually inspect all bus communication connections (connectors and wires) for breaks, shorts, opens, chafing, burns and melted spots", "Reset all codes and do a test drive. If this code returns disconnect one control module at a time and see if the scanner can finally communicate with PCM"]
+    },
+    {
+        "id": "12",
+        "code": "U0107",
+        "description": "Lost Communication With Throttle Actuator Control Module", 
+        "meaning": "There’s no communication between the throttle actuator control (TAC) module and other control modules",
+        "main_symptoms": ["Check Engine Light comes on", "Electronic throttle control light comes on or flashes", "No throttle response"],
+        "possible_causes": ["Open in CAN bus + or – circuit", "Short to power or ground in either + or – CAN bus circuit", "Defective TAC module (least likely)"],
+        "diagnostic_steps": ["Using a bidirectional scan tool, control TAC module and see if it responds. If it doesn’t probe it further", "If it responds then check all the wires, connectors and fuses that make the circuit", "With key on engine off, check the voltage of CAN C+ and C-. If the readings don’t match manufacturer’s specs then the communication circuits are bad"]
+    },
+    {
+        "id": "13",
+        "code": "U0121",
+        "description": "Lost Communication With Anti-Lock Brake System Control Module", 
+        "meaning": "There’s no communication between the anti-lock brake system (ABS) control module and other control modules",
+        "main_symptoms": ["Check Engine Light comes on", "ABS warning light comes on", "TRAC or ESP/ESC (or both) warning light comes on"],
+        "possible_causes": ["Open in CAN bus + or – circuit", "Short to power or ground in either + or – CAN bus circuit", "Defective ABS control module (least likely)"],
+        "diagnostic_steps": ["Using a bidirectional scan tool, control ABS control module and see if it responds. If it doesn’t probe it further", "If it responds then check all the wires, connectors and fuses that make the circuit", "With key on engine off, check the voltage of CAN C+ and C-. If the readings don’t match manufacturer’s specs then the communication circuits are bad"]
+    },
+    {
+        "id": "14",
+        "code": "B0092",
+        "description": "Left Side Restraints Sensor 2", 
+        "meaning": "A Ford code, the B0092 means that the left side airbag sensor has detected a problem with the airbag system",
+        "main_symptoms": ["Airbag warning lights may come on", "Abnormal illumination of airbag warning lights"],
+        "possible_causes": ["Open, short or broken wire in left side restraint sensor 2 harness", "Defective left side restraint sensor 2"],
+        "diagnostic_steps": ["Visually inspect all wiring to left side restraint sensor 2 for loose, open or short connections", "Check resistance of left side restraint sensor 2 and compare with specs. If they don’t match replace sensor"]
+    },
+    {
+        "id": "15",
+        "code": "B01015",
+        "description": "This Is A Manufacturer-Specific Code That Means Different Things In Different Cars. In GM It Means Passenger Deploy. In Chrysler It Means Rear Defrost Switch Request Input Circuit/Performance. In Ford It Means Electronic Instrument Cluster Unconfigured. In Mazda It Means Electronic Instrument Cluster Unconfigured. In Mitsubishi It Means Heater Water Temperature Sensor Performance"
+    },
+    {
+        "id": "16",
+        "code": "B1047",
+        "description": "Driver-Side Side Air Bag Module And Other Air Bag Module Circuits Short",
+        "meaning": "There’s a short in the side airbag on the driver’s side",
+        "main_symptoms": ["Airbag warning lights may come on", "Abnormal illumination of airbag warning lights"],
+        "possible_causes": ["Open or short in the circuit leading to driver-side side air bag module", "Defective driver-side side air bag module", "Defective SRS (airbag) module"],
+        "diagnostic_steps": ["Visually inspect all wiring to the driver-side side air bag module for loose, open or short connections", "Perform resistance test on driver-side side air bag module", "Perform resistance test on airbag control module"]
+    },
+    {
+        "id": "17",
+        "code": "B1318",
+        "description": "Battery Voltage Low",
+        "meaning": "This is a Ford and Jaguar code that is set when the PCM detects that battery voltage has fallen below a predetermined level",
+        "main_symptoms": ["Check Engine Light comes on", "Red battery light on", "Reduced fuel economy", "Engine may fail to start", "Engine may start then stall and die", "Engine may start then stall and die"],
+        "possible_causes": ["Short in driver airbag’s harness", "Problem with spiral cable", "Defective driver airbag", "Problem with electrical connection in driver airbag"],
+        "diagnostic_steps": ["Check whether battery voltage is sufficient", "Ensure battery is properly connected then check alternator belt", "Using a digital volt ohm meter (DVOM), check whether the charging system is working", "Reset the code then do a test drive. If the code returns check PCM voltage"]
+    },
+    {
+        "id": "18",
+        "code": "C1130",
+        "description": "Engine Signal 1",
+        "meaning": "The ABS control module has detected that there’s a problem with the engine control unit (ECU) or PCM",
+        "main_symptoms": ["ABS warning light comes on", "Check Engine Light comes on"],
+        "possible_causes": ["Defective ECU", "Defective ABS actuator and/or ABS control module", "Problem with CAN communication line", "Damaged controller(s) due to abnormal system voltages"],
+        "diagnostic_steps": ["Diagnose and address all other codes first before replacing ECU", "Check whether system voltage is within manufacturer’s recommendation", "Inspect wiring to ECU and ensure that there are no open, shorted or broken wires", "Check all fuses and replace as necessary", "Run tests on ABS module", "Run tests on CAN line", "Reset all codes and do test drive. If the code returns you may have to replace ECU"]
+    },
+    {
+        "id": "19",
+        "code": "C1145",
+        "description": "Right Front Wheel Speed Sensor Input Circuit Failure",
+        "meaning": "The right front wheel speed, as given by the wheel’s speed sensor is not within the expected range",
+        "main_symptoms": ["ABS warning light comes on", "Check Engine Light comes on"],
+        "possible_causes": ["Defective right front wheel speed sensor", "Wiring problem in that speed sensor’s circuit", "PCM is not configured properly for the size of the right front wheel"],
+        "diagnostic_steps": ["Visually inspect all wiring to the right front wheel speed sensor and check for open, short, broken and chaffed wires", "Check the voltage of the speed sensor and match with manufacturer specs. If they don’t match replace the sensor"]
+    },
+    {
+        "id": "20",
+        "code": "C1201",
+        "description": "Engine Control System Malfunction",
+        "meaning": "The Electronic Control Unit (ECU) has failed",
+        "main_symptoms": ["Check Engine Light comes on", "Other warning lights may come on depending on which module is affected"],
+        "possible_causes": ["Defective ECU", "Damaged controller(s) due to abnormal system voltages"],
+        "diagnostic_steps": ["Diagnose and address all other codes first before replacing ECU", "Check whether system voltage is within manufacturer’s recommendation", "Inspect wiring to ECU and ensure that there are no open, shorted or broken wires", "Reset all codes and do test drive. If the code returns you may have to replace ECU"]
+    },
+    {
+        "id": "21",
+        "code": "C1223",
+        "description": " ABS Control System Malfunction",
+        "meaning": "This code is set when the car’s vehicle stability control (VSC) system detects any malfunction in the ABS",
+        "main_symptoms": ["ABS warning light comes on", "Check Engine Light comes on"],
+        "possible_causes": ["Open or short in the ABS circuit", "Defective ABS sensor", "Defective ABS control module"],
+        "diagnostic_steps": ["Visually inspect all wiring in the ABS circuit for loose, open or short connections", "Perform resistance test on ABS sensors and module. Replace as necessary", "Reset code and do drive cycle, if it returns probe other systems, including PCM"]
+    },
+    {
+        "id": "22",
+        "code": "C1233",
+        "description": "Left Front Wheel Speed Sensor Input Signal Missing",
+        "meaning": "PCM or vehicle speed sensor (VSS) has failed to receive signals from the Left Front Wheel Speed Sensor",
+        "main_symptoms": ["ABS warning light comes on", "Check Engine Light comes on"],
+        "possible_causes": ["Poor connection in Left Front Wheel Speed Sensor", "Open, shorted or broken wire in Left Front Wheel Speed Sensor harness", "Defective Left Front Wheel Speed Sensor"],
+        "diagnostic_steps": ["Visually inspect all wiring in the Left Front Wheel Speed Sensor circuit for loose, open or short connections", "Perform resistance test on Left Front Wheel Speed Sensor. Replace if necessary", "Reset code and do drive cycle, if it returns probe ABS system entirely"]
+    },
+    {
+        "id": "23",
+        "code": "C1234",
+        "description": "Right Front Wheel Speed Sensor Input Signal Missing",
+        "meaning": "PCM or vehicle speed sensor (VSS) has failed to receive signals from the Right Front Wheel Speed Sensor",
+        "main_symptoms": ["ABS warning light comes on", "Check Engine Light comes on"],
+        "possible_causes": ["Poor connection in Left Front Wheel Speed Sensor", "Open, shorted or broken wire in Left Front Wheel Speed Sensor harness", "Defective Left Front Wheel Speed Sensor"],
+        "diagnostic_steps": ["Visually inspect all wiring in the Left Front Wheel Speed Sensor circuit for loose, open or short connections", "Perform resistance test on Left Front Wheel Speed Sensor. Replace if necessary", "Reset code and do drive cycle, if it returns probe ABS system entirely"]
+    },
+    {
+        "id": "24",
+        "code": "C1241",
+        "description": "Low Battery Positive Voltage",
+        "meaning": "This code is set when there’s a problem with the skid control ECU (master cylinder solenoid)",
+        "main_symptoms": ["ABS warning light comes on", "Check Engine Light comes on"],
+        "possible_causes": ["Low battery voltage", "Using an incorrect battery", "Unmaintained battery","High resistance either in alternator-battery circuit, alternator-PCM circuit or both", "Defective charging system"],
+        "diagnostic_steps": ["Check whether battery voltage is sufficient", "Ensure battery is properly connected then check alternator belt", "Using a digital volt ohm meter (DVOM), check whether the charging system is working", "Reset the code then do a test drive. If the code returns check PCM voltage"]
+    },
+    {
+        "id": "25",
+        "code": "C1713",
+        "description": "Right Rear Height Control Sensor Circuit",
+        "meaning": "PCM has detected that after switching ignition ON, a voltage of .3V or less, or 4.7V or more was achieved for more than 1 second at each height control sensor sub−assy rear",
+        "main_symptoms": ["Check Engine Light comes on", "Height control indicator lamp (N) comes on or blinks", "Vehicle won’t be able to perform height control function"],
+        "possible_causes": ["Defective Right Rear Height Control Sensor", "Wiring issue in Right Rear Height Control Sensor", "Worn out suspension and ride control parts", "Problem with shocks and/or struts"],
+        "diagnostic_steps": ["Visually inspect all wiring in the RIGHT Rear Height Control Sensor circuit for loose, open or short connections", "Perform resistance test on Right Rear Height Control Sensor. Replace if necessary", "Ensure that all parts, including ball joints, springs (for ride height), shocks and struts are well maintained"]
+    }
+]
